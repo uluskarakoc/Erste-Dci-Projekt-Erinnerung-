@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      label {
+        border: 1px solid black;
+        display: inline-block;
+        background-color: #ffebad;
+      }
+      input {
+        display: inline-block;
+        background-color: #ffebad;
+      }
+      textarea {
+        background-color: #ffebad;
+      }
+      h1 {
+        display: block;
+        padding: 5px;
+        background-color: #fff6bf;
+        text-align: center;
+        height: 80px;
+      }
+    </style>
+  </head>
+  <body>
+    <a href="ulus.pjojekt.html">Home</a>
+    <form action="">
+      <h1>KONTAKT FORMULAR</h1>
+      <table>
+        <thead>
+          <tr>
+            <td><label for="vorname">Vorname:</label></td>
+            <td style="width: 20px"></td>
+            <td><input type="text" id="vorname" /></td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><label for="Nachname">Nachname:</label></td>
+            <td style="width: 20px"></td>
+            <td><input type="text" id="Nachname" /></td>
+          </tr>
+          <tr>
+            <td><label for="birthday">Birthday</label></td>
+            <td style="width: 20px"></td>
+            <td><input type="date" id="birthday" /></td>
+          </tr>
+          <tr>
+            <td><label for="email">Eposta:</label></td>
+            <td style="width: 20px"></td>
+            <td><input type="email" id="email" /></td>
+          </tr>
+          <tr>
+            <td><label for="intro">Schreiben Sie:</label></td>
+            <td style="width: 20px"></td>
+            <td><textarea id="intro"></textarea></td>
+          </tr>
+          <tr>
+            <td><label for="">Am Lieblings die Part von Website</label></td>
+            <td style="width: 20px"></td>
+            <td>
+              <label for="straße">Straße</label>
+              <input type="radio" id="straße" name="wahl" />
+              <label for="Aussicht">Aussicht</label>
+              <input type="radio" id="Aussicht" name="wahl" />
+              <label for="Architektur">Architektur</label>
+              <input type="radio" id="Architektur" name="wahl" />
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </form>
+  </body>
+</html>
